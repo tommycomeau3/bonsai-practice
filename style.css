@@ -157,7 +157,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 110px;
+    padding-top: 150px;
 }
 
 #plans {
@@ -179,6 +179,13 @@ header {
     color: #adadad;
     font-size: 16px;
     padding-left: 40px;
+}
+
+.free {
+    width: 130px;
+    position: relative;
+    top: -22.5px; /* Adjust the top value as needed */
+    left: -100px; /* Adjust the left value as needed */
 }
 
 /* The switch - the box around the slider */
@@ -247,6 +254,18 @@ header {
 @media (max-width: 1200px) {
     .logo {
         width: 100px;
+    }
+
+    .plans-pricing {
+        padding-top: 100px;
+    }
+
+    header {
+        background-color: #E3F1F1;
+    }
+
+    #plans {
+        font-size: 1.5rem;
     }
 }
 
