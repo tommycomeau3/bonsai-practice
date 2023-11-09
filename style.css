@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url(https://db.onlinewebfonts.com/c/ab9e8eea3710ad4417e4a318556bc614?family=Amerigo+BT+Roman);
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -171,7 +172,7 @@ header {
     .primary-navigation {
         position: fixed;
         z-index: 1000;
-        inset: -10% 0 0 0;
+        inset: -12% 0 0 0;
         list-style: none;
         padding: min(20rem, 15vh) 2rem;
         margin: 0;
